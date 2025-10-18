@@ -5,16 +5,27 @@ import os
 
 def main():
     ...
+    
    
 def greet(s):
     columns = shutil.get_terminal_size().columns
     art = pyfiglet.figlet_format(s, width=columns, justify="center")
     type_effect(art,0.01)
 
-def open_file(filename):
-    with open(f"{filename}.txt","r") as file:
-        return(file.read())
-    
+def open_file():
+    while True:
+        type_effect("file to open: ")
+        filename = input("")
+        try:
+            with open(f"{filename}.txt","r") as file:
+                file_content = file.read()
+                if len(file_content) != 0:
+                    return(file_content)
+                else:
+                    type_effect(f"{filename} is empty!\n")
+        except FileNotFoundError:
+            type_effect(f"{filename} does not exits!\n")
+
 def count_words(s):
     words = s.split()
     print(len(words))
@@ -33,4 +44,3 @@ def clear_terminal(delay=1):
 
 if __name__ == "__main__":
     main()
-    
