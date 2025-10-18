@@ -54,3 +54,8 @@ Text to Enhance:
 {text}
 ---
 """      
+       
+    def translator(self, text: str, language: str):
+        prompt = self.translator_prompt(text, language)
+        response = self.model.generate_content(prompt)
+        return response.text
