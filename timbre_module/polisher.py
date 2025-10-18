@@ -33,4 +33,24 @@ Text to Translate:
 {text}
 ---
 """ 
-        
+    def enhancer_prompt(self, text: str, style: str):
+        style = style.strip()
+        if style:
+            instruction =f"Refine the text to conform to a **{style}** style and tone. Ensure the phrasing is accurate, idiomatic, and highly suitable for the requested style."
+        else:
+            instruction ="Correct all grammar and spelling mistakes. Improve the phrasing to be **clear, natural, and highly accurate** without changing the original tone significantly."
+        return f"""
+You are an expert editor and style guide. Your task is to polish and refine the provided text.
+
+Strictly adhere to the following instructions:
+1.  **Primary Task:** {instruction}
+2.  **Correction:** Scrutinize and correct all errors in grammar, spelling, punctuation, and syntax.
+3.  **Tone & Audience:** Ensure the refined text is appropriate for its context and maintains coherence.
+4.  **Output Rule:** Provide **only** the polished and corrected text. **DO NOT** include any conversation, explanation, or preamble.
+5.  **Formatting:** Preserve all original line breaks and paragraph structure.
+
+Text to Enhance:
+---
+{text}
+---
+"""      
