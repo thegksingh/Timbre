@@ -19,7 +19,7 @@ def count_words(s):
     words = s.split()
     print(len(words))
 
-def type_effect(s, delay):
+def type_effect(s, delay=0.1):
     for character in s:
         print(character, end="", flush=True)
         time.sleep(delay)
