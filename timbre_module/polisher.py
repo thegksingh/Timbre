@@ -59,3 +59,8 @@ Text to Enhance:
         prompt = self.translator_prompt(text, language)
         response = self.model.generate_content(prompt)
         return response.text
+    
+    def enhancer(self, text: str, style: str=""):
+        prompt = self.enhancer_prompt(text, style)
+        response = self.model.generate_content(prompt)
+        return response.text    
