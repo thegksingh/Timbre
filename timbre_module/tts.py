@@ -15,3 +15,6 @@ class tts:
         except Exception as e:
             print(f"Error: {e}")
             return None
+
+    def convert(self, text: str,voice: str, rate: str = "+0%", pitch: str = "+0Hz", output_name: str = "output_audio"):
+        return asyncio.run(self.generate_audio(text, voice, rate, pitch, output_name))
