@@ -7,6 +7,7 @@ from timbre_module.tts import Tts
 import asyncio
 from timbre_module.polisher import TextPolisher
 import sys
+from timbre_module.stt import Stt
 
 
 options = [
@@ -58,8 +59,24 @@ async def main():
                     
                    
             elif chosen== "2" or chosen=="stt":
+                stt_result = Stt()
                 type_effect("⚙️Initializing Speech-To-Text...\n")
-
+                type_effect("📄 input file name: ")
+                inputfile = input("").strip()
+                path = f"inputs/mp3/{inputfile}.mp3"
+                type_effect("📄 output file name: ")
+                outputfile = input("").strip()
+                clear_terminal(1)
+                type_effect("Processing request...⌛\n")
+                try:
+                    result = stt_result.generate(path)
+                    save_output(result, outputfile,"txt","text")
+                    type_effect(f"✅ Processing completed. Find your new text file at outputs/text/{inputfile}.text\n")
+                    sys.exit()
+                except Exception as e:
+                    print(f"Error: {e}\n")
+                    clear_terminal(10)
+                    print_option()
 
             elif chosen== "3" or chosen=="sts":
                 type_effect("⚙️Initializing Speech-To-Speech...\n")  
