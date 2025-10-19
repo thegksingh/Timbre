@@ -2,10 +2,18 @@ import pyfiglet
 import shutil
 import time
 import os
+from tabulate import tabulate
+
+options = [
+    ["1." "TTS", "Text To Speech", "Convert written text into spoken audio."],
+    ["2." "STT", "Speech To Text", "Transcribe spoken aydio into written text"],
+    ["3." "STS", "Speech To Speech", "Transform a user's recorded or TTS voice into different AI-generated voice"],
+    ["4." "TP", "Text Polisher", "Refine and corrects written text from translation,grammer and style"]
+]
 
 def main():
     ...
-    
+
    
 def greet(s):
     columns = shutil.get_terminal_size().columns
@@ -17,14 +25,16 @@ def open_file():
         type_effect("file to open: ")
         filename = input("")
         try:
-            with open(f"{filename}.txt","r") as file:
+            with open(f"inputs\{filename}.txt","r") as file:
                 file_content = file.read()
                 if len(file_content) != 0:
                     return(file_content)
                 else:
                     type_effect(f"{filename} is empty!\n")
+                    clear_terminal()
         except FileNotFoundError:
             type_effect(f"{filename} does not exits!\n")
+            clear_terminal()
 
 def count_words(s):
     words = s.split()
