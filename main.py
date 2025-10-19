@@ -63,8 +63,49 @@ async def main():
                 type_effect("⚙️Initializing Speech-To-Speech...\n")  
 
             elif chosen== "4" or chosen=="tp":
-                
+                polisher = TextPolisher()    
                 type_effect("⚙️Initializing Text-Polisher...\n")
+                while True:
+                    type_effect("Select an action: 1. Translate or 2. Enhance? ")
+                    action = input("").strip().lower()
+                    clear_terminal(1)
+                    if not action:
+                        type_effect("Action required\n")
+                    else:
+                        if action =="1" or action == "translate":
+                            content= open_file()
+                            type_effect("🌐 Language to convert: ")
+                            language = input("")
+                            type_effect("📄 output file name: ")
+                            filename = input("").strip()
+                            clear_terminal(1)
+                            type_effect("Processing request...⌛\n")
+                            try:
+                                result = polisher.translator(text=content, language=language)
+                                if result:
+                                    type_effect(f"✅ Processing completed. Find your new text file at output\mp3\{filename}.text\n")
+                                    sys.exit()                           
+                            except Exception as e:
+                                type_effect(f"Error: {e}\n")
+                                clear_terminal(2)
+                        elif action == "2" or action == "enhancer":
+                            content= open_file()   
+                            type_effect("✨ Enter style: ")
+                            style = input("")
+                            type_effect("📄 output file name: ")
+                            filename = input("").strip()
+                            clear_terminal(1)
+                            type_effect("Processing request...⌛\n")
+                            try:
+                                result = polisher.enhancer(text=content, style=style)
+                                if result:
+                                    type_effect(f"✅ Processing completed. Find your new text file at output\mp3\{filename}.text\n")
+                                    break
+                            except Exception as e:
+                                type_effect(f"Error: {e}\n")
+                                clear_terminal(2)
+                        else:
+                            type_effect("Please enter your action (eg., '1' or 'translate')\n")
                 
             else:
                 type_effect("Please refer to the table above and enter a valid number or acronym.\n")
