@@ -5,20 +5,38 @@ import os
 from tabulate import tabulate
 
 options = [
-    ["1." "TTS", "Text To Speech", "Convert written text into spoken audio."],
-    ["2." "STT", "Speech To Text", "Transcribe spoken aydio into written text"],
-    ["3." "STS", "Speech To Speech", "Transform a user's recorded or TTS voice into different AI-generated voice"],
-    ["4." "TP", "Text Polisher", "Refine and corrects written text from translation,grammer and style"]
+    ["1.", "TTS", "Text To Speech", "Convert written text into spoken audio."],
+    ["2.", "STT", "Speech To Text", "Transcribe spoken aydio into written text"],
+    ["3.", "STS", "Speech To Speech", "Transform a user's recorded or TTS voice into different AI-generated voice"],
+    ["4.", "TP", "Text Polisher", "Refine and corrects written text from translation,grammer and style"]
 ]
 
 def main():
     greet("TIMBER !")
+    clear_terminal(2)
     headers = ["Option", "Acronym", "Name", "Description"]
     table =tabulate(options, headers=headers, tablefmt="fancy_grid")
     columns = shutil.get_terminal_size().columns
     for line in table.splitlines():
         print(line.center(columns))
-
+    time.sleep(1)
+    while True:
+        type_effect("How would you like me to proceed? ")
+        chosen = input("").strip().lower()   
+        if not chosen:
+            type_effect("Please enter your choice (eg., '1' or 'TTS').\n")
+        else:
+            clear_terminal(0.5)
+            if chosen == "1" or chosen == "tts":
+                type_effect("Initializing Text-To-Speech...\n")
+            elif chosen== "2" or chosen=="stt":
+                type_effect("Initializing Speech-To-Text...\n")
+            elif chosen== "3" or chosen=="sts":
+                type_effect("Initializing Speech-To-Speech...\n")    
+            elif chosen== "4" or chosen=="tp":
+                type_effect("Initializing Text-Polisher...\n")
+            else:
+                type_effect("Please refer to the table above and enter a valid number or acronym.\n")
    
 def greet(s):
     columns = shutil.get_terminal_size().columns
