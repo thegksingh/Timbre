@@ -5,6 +5,8 @@ import os
 from tabulate import tabulate
 from timbre_module.tts import tts
 import asyncio
+from timbre_module.polisher import TextPolisher
+import sys
 
 options = [
     ["1.", "TTS", "Text To Speech", "Convert written text into spoken audio."],
@@ -17,19 +19,15 @@ options = [
 async def main():
     greet("TIMBER !")
     clear_terminal(2)
-    headers = ["Option", "Acronym", "Name", "Description"]
-    table =tabulate(options, headers=headers, tablefmt="fancy_grid")
-    columns = shutil.get_terminal_size().columns
-    for line in table.splitlines():
-        print(line.center(columns))
+    print_option()
     time.sleep(1)
     while True:
         type_effect("How would you like me to proceed? ")
-        chosen = input("").strip().lower()   
+        chosen = input("").strip().lower()
+        clear_terminal(0.5)  
         if not chosen:
             type_effect("Please enter your choice (eg., '1' or 'TTS').\n")
         else:
-            clear_terminal(0.5)
             if chosen == "1" or chosen == "tts":
                 speech = tts()
                 type_effect("⚙️ Initializing Text-To-Speech...\n")
@@ -46,19 +44,28 @@ async def main():
                 pitch = input("").strip()
                 if not pitch:
                      pitch= "+0Hz"
+                clear_terminal(1)
                 type_effect("Processing request...⌛\n")
                 try:
                     await speech.generate_audio(text=content, voice=voice, rate=rate, pitch=pitch, output_name=filename)
                     type_effect(f"✅ Processing completed. Find your new audio file at output\mp3\{filename}.mp3\n")
+                    sys.exit()
                 except Exception as e:
-                    type_effect(f"Error: {e}")
+                    type_effect(f"Error: {e}\n")
+                    clear_terminal(2)
+                    print_option()
+                    
                    
             elif chosen== "2" or chosen=="stt":
                 type_effect("⚙️Initializing Speech-To-Text...\n")
+
             elif chosen== "3" or chosen=="sts":
-                type_effect("⚙️Initializing Speech-To-Speech...\n")    
+                type_effect("⚙️Initializing Speech-To-Speech...\n")  
+
             elif chosen== "4" or chosen=="tp":
+                
                 type_effect("⚙️Initializing Text-Polisher...\n")
+                
             else:
                 type_effect("Please refer to the table above and enter a valid number or acronym.\n")
    
@@ -98,6 +105,13 @@ def clear_terminal(delay=1):
         os.system("cls")
     else:
         os.system("clear")
+
+def print_option():
+    headers = ["Option", "Acronym", "Name", "Description"]
+    table =tabulate(options, headers=headers, tablefmt="fancy_grid")
+    columns = shutil.get_terminal_size().columns
+    for line in table.splitlines():
+        print(line.center(columns))        
 
 if __name__ == "__main__":
     asyncio.run(main())
