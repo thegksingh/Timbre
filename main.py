@@ -3,6 +3,8 @@ import shutil
 import time
 import os
 from tabulate import tabulate
+from timbre_module.tts import tts
+import asyncio
 
 options = [
     ["1.", "TTS", "Text To Speech", "Convert written text into spoken audio."],
@@ -11,7 +13,8 @@ options = [
     ["4.", "TP", "Text Polisher", "Refine and corrects written text from translation,grammer and style"]
 ]
 
-def main():
+
+async def main():
     greet("TIMBER !")
     clear_terminal(2)
     headers = ["Option", "Acronym", "Name", "Description"]
@@ -28,13 +31,34 @@ def main():
         else:
             clear_terminal(0.5)
             if chosen == "1" or chosen == "tts":
-                type_effect("Initializing Text-To-Speech...\n")
+                speech = tts()
+                type_effect("⚙️ Initializing Text-To-Speech...\n")
+                content= open_file()
+                type_effect("📄 output file name: ")
+                filename = input("").strip()
+                type_effect("🔊 Speaker: ")
+                voice = input("").strip()
+                type_effect("⏱️ Rate: ")
+                rate = input("").strip()
+                if not rate:
+                    rate= "+0%"
+                type_effect("🎵 Pitch: ")    
+                pitch = input("").strip()
+                if not pitch:
+                     pitch= "+0Hz"
+                type_effect("Processing request...⌛\n")
+                try:
+                    await speech.generate_audio(text=content, voice=voice, rate=rate, pitch=pitch, output_name=filename)
+                    type_effect(f"✅ Processing completed. Find your new audio file at output\mp3\{filename}.mp3\n")
+                except Exception as e:
+                    type_effect(f"Error: {e}")
+                   
             elif chosen== "2" or chosen=="stt":
-                type_effect("Initializing Speech-To-Text...\n")
+                type_effect("⚙️Initializing Speech-To-Text...\n")
             elif chosen== "3" or chosen=="sts":
-                type_effect("Initializing Speech-To-Speech...\n")    
+                type_effect("⚙️Initializing Speech-To-Speech...\n")    
             elif chosen== "4" or chosen=="tp":
-                type_effect("Initializing Text-Polisher...\n")
+                type_effect("⚙️Initializing Text-Polisher...\n")
             else:
                 type_effect("Please refer to the table above and enter a valid number or acronym.\n")
    
@@ -45,7 +69,7 @@ def greet(s):
 
 def open_file():
     while True:
-        type_effect("file to open: ")
+        type_effect("📄 file to open: ")
         filename = input("")
         try:
             with open(f"inputs\{filename}.txt","r") as file:
@@ -76,4 +100,4 @@ def clear_terminal(delay=1):
         os.system("clear")
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
