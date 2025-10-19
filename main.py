@@ -59,7 +59,20 @@ async def main():
                     
                    
             elif chosen== "2" or chosen=="stt":
-                stt_result = Stt()
+                while True:
+                     type_effect("🧠 Whisper model: ")
+                     try:
+                         model = input("")
+                         if not model:
+                             model = "base"
+                             type_effect("Set Whisper model to base")
+                         stt_result = Stt(model=model)
+                         break
+                     except Exception as e:
+                        type_effect(f"Error: {e}\n")
+                        clear_terminal(2)
+                        continue
+                             
                 type_effect("⚙️Initializing Speech-To-Text...\n")
                 type_effect("📄 input file name: ")
                 inputfile = input("").strip()
@@ -79,7 +92,49 @@ async def main():
                     print_option()
 
             elif chosen== "3" or chosen=="sts":
-                type_effect("⚙️Initializing Speech-To-Speech...\n")  
+                type_effect("⚙️Initializing Speech-To-Speech...\n")
+                while True:
+                    type_effect("🧠 Whisper model: ")
+                    try:
+                         model = input("")
+                         if not model:
+                             model = "base"
+                             type_effect("Set Whisper model to base")
+                         stt_result = Stt(model=model)
+                         break
+                    except Exception as e:
+                        type_effect(f"Error: {e}\n")
+                        clear_terminal(2)
+                        continue
+                type_effect("Input file name: ")    
+                inputfile = input("")
+                type_effect("Output file name: ")
+                outputfile = input("")
+                type_effect("🔊 Speaker: ")
+                voice = input("").strip()
+                type_effect("⏱️ Rate: ")
+                rate = input("").strip()
+                if not rate:
+                    rate= "+0%"
+                type_effect("🎵 Pitch: ")    
+                pitch = input("").strip()
+                if not pitch:
+                     pitch= "+0Hz"
+                path = f"inputs/mp3/{inputfile}.mp3"
+                clear_terminal(1)
+                type_effect("Processing request...⌛\n")
+                try:
+                    result = stt_result.generate(path)
+                    if result:
+                        speech = Tts()
+                        type_effect("Text file generated\nNow generating audio")
+                        await speech.generate_audio(text=result, voice=voice, rate=rate, pitch=pitch, output_name=outputfile)
+                        type_effect(f"✅ Processing completed. Find your new audio file at output/mp3/{outputfile}.mp3\n")
+                        sys.exit()
+                except Exception as e:
+                        type_effect(f"Error: {e}\n")
+                        clear_terminal(5)
+                        continue    
 
             elif chosen== "4" or chosen=="tp":
                 polisher = TextPolisher()    
