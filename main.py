@@ -82,6 +82,7 @@ async def main():
                             type_effect("Processing request...⌛\n")
                             try:
                                 result = polisher.translator(text=content, language=language)
+                                save_output(result,filename,"txt","text")
                                 if result:
                                     type_effect(f"✅ Processing completed. Find your new text file at outputs\text\{filename}.text\n")
                                     sys.exit()                           
@@ -98,6 +99,7 @@ async def main():
                             type_effect("Processing request...⌛\n")
                             try:
                                 result = polisher.enhancer(text=content, style=style)
+                                save_output(result,filename,"txt","text")
                                 if result:
                                     type_effect(f"✅ Processing completed. Find your new text file at outputs\text\{filename}.text\n")
                                     break
