@@ -1,0 +1,552 @@
+Name                                  Gender    ContentCategories    VoicePersonalities
+------------------------------------  --------  -------------------  ------------------------------------------------
+af-ZA-AdriNeural                      Female                         Well-Rounded, Animated, Bright
+af-ZA-WillemNeural                    Male
+am-ET-AmehaNeural                     Male
+am-ET-MekdesNeural                    Female
+ar-AE-FatimaNeural                    Female                         Crisp, Bright, Clear
+ar-AE-HamdanNeural                    Male
+ar-BH-AliNeural                       Male
+ar-BH-LailaNeural                     Female
+ar-DZ-AminaNeural                     Female                         Crisp, Bright, Clear
+ar-DZ-IsmaelNeural                    Male
+ar-EG-SalmaNeural                     Female                         Crisp, Bright, Clear
+ar-EG-ShakirNeural                    Male
+ar-IQ-BasselNeural                    Male
+ar-IQ-RanaNeural                      Female
+ar-JO-SanaNeural                      Female
+ar-JO-TaimNeural                      Male
+ar-KW-FahedNeural                     Male
+ar-KW-NouraNeural                     Female                         Crisp, Bright, Clear
+ar-LB-LaylaNeural                     Female
+ar-LB-RamiNeural                      Male
+ar-LY-ImanNeural                      Female
+ar-LY-OmarNeural                      Male
+ar-MA-JamalNeural                     Male
+ar-MA-MounaNeural                     Female                         Crisp, Bright, Clear
+ar-OM-AbdullahNeural                  Male
+ar-OM-AyshaNeural                     Female                         Sincere, Pleasant
+ar-QA-AmalNeural                      Female
+ar-QA-MoazNeural                      Male
+ar-SA-HamedNeural                     Male
+ar-SA-ZariyahNeural                   Female                         Crisp, Bright, Clear
+ar-SY-AmanyNeural                     Female                         Sincere, Pleasant
+ar-SY-LaithNeural                     Male
+ar-TN-HediNeural                      Male
+ar-TN-ReemNeural                      Female                         Sincere, Pleasant
+ar-YE-MaryamNeural                    Female
+ar-YE-SalehNeural                     Male
+as-IN-PriyomNeural                    Male
+as-IN-YashicaNeural                   Female
+az-AZ-BabekNeural                     Male
+az-AZ-BanuNeural                      Female
+bg-BG-BorislavNeural                  Male                           Light-Hearted, Whimsical, Friendly
+bg-BG-KalinaNeural                    Female
+bn-BD-NabanitaNeural                  Female
+bn-BD-PradeepNeural                   Male
+bn-IN-BashkarNeural                   Male
+bn-IN-TanishaaNeural                  Female
+bs-BA-GoranNeural                     Male
+bs-BA-VesnaNeural                     Female
+ca-ES-AlbaNeural                      Female                         Crisp, Bright, Clear      
+ca-ES-EnricNeural                     Male
+ca-ES-JoanaNeural                     Female
+cs-CZ-AntoninNeural                   Male
+cs-CZ-VlastaNeural                    Female
+cy-GB-AledNeural                      Male
+cy-GB-NiaNeural                       Female
+da-DK-ChristelNeural                  Female
+da-DK-JeppeNeural                     Male
+de-AT-IngridNeural                    Female
+de-AT-JonasNeural                     Male                           Light-Hearted, Whimsical, Friendly
+de-CH-JanNeural                       Male
+de-CH-LeniNeural                      Female
+de-DE-AmalaNeural                     Female                         Well-Rounded, Animated, Bright
+de-DE-BerndNeural                     Male
+de-DE-ChristophNeural                 Male
+de-DE-ConradNeural                    Male                           Engaging, Friendly        
+de-DE-ElkeNeural                      Female
+de-DE-FlorianMultilingualNeural       Male                           Cheerful, Warm
+de-DE-GiselaNeural                    Female                         Crisp, Cheerful, Bright   
+de-DE-KasperNeural                    Male
+de-DE-KatjaNeural                     Female                         Calm, Pleasant
+de-DE-KillianNeural                   Male
+de-DE-KlarissaNeural                  Female
+de-DE-KlausNeural                     Male
+de-DE-LouisaNeural                    Female
+de-DE-MajaNeural                      Female
+de-DE-RalfNeural                      Male
+de-DE-SeraphinaMultilingualNeural     Female                         Casual, Casual
+de-DE-TanjaNeural                     Female
+el-GR-AthinaNeural                    Female
+el-GR-NestorasNeural                  Male
+en-AU-AnnetteNeural                   Female
+en-AU-CarlyNeural                     Female                         Crisp, Cheerful, Bright   
+en-AU-DarrenNeural                    Male
+en-AU-DuncanNeural                    Male
+en-AU-ElsieNeural                     Female
+en-AU-FreyaNeural                     Female
+en-AU-JoanneNeural                    Female
+en-AU-KenNeural                       Male
+en-AU-KimNeural                       Female
+en-AU-NatashaNeural                   Female                         Crisp, Bright, Clear      
+en-AU-NeilNeural                      Male
+en-AU-TimNeural                       Male
+en-AU-TinaNeural                      Female
+en-AU-WilliamMultilingualNeural       Male                           Warm, Cheerful, Casual, Friendly, Pleasant
+en-AU-WilliamNeural                   Male                           Engaging, Strong
+en-CA-ClaraNeural                     Female                         Crisp, Bright, Clear      
+en-CA-LiamNeural                      Male
+en-GB-AbbiNeural                      Female
+en-GB-AdaMultilingualNeural           Female                         Cheerful, Warm, Gentle, Friendly
+en-GB-AlfieNeural                     Male
+en-GB-BellaNeural                     Female
+en-GB-ElliotNeural                    Male
+en-GB-EthanNeural                     Male
+en-GB-HollieNeural                    Female
+en-GB-LibbyNeural                     Female                         Crisp, Bright, Clear      
+en-GB-MaisieNeural                    Female                         Crisp, Cheerful, Bright   
+en-GB-MiaNeural                       Female
+en-GB-NoahNeural                      Male
+en-GB-OliverNeural                    Male
+en-GB-OliviaNeural                    Female
+en-GB-OllieMultilingualNeural         Male                           Warm, Cheerful, Casual, Friendly, Pleasant
+en-GB-RyanNeural                      Male                           Bright, Engaging
+en-GB-SoniaNeural                     Female                         Gentle, Soft
+en-GB-ThomasNeural                    Male
+en-HK-SamNeural                       Male
+en-HK-YanNeural                       Female
+en-IE-ConnorNeural                    Male                           Light-Hearted, Whimsical, Friendly
+en-IE-EmilyNeural                     Female
+en-IN-AaravNeural                     Male
+en-IN-AartiIndicNeural                Female
+en-IN-AartiNeural                     Female
+en-IN-AashiNeural                     Female
+en-IN-AnanyaNeural                    Female
+en-IN-ArjunIndicNeural                Male
+en-IN-ArjunNeural                     Male
+en-IN-KavyaNeural                     Female
+en-IN-KunalNeural                     Male
+en-IN-NeerjaIndicNeural               Female
+en-IN-NeerjaNeural                    Female
+en-IN-PrabhatIndicNeural              Male
+en-IN-PrabhatNeural                   Male
+en-IN-RehaanNeural                    Male
+en-KE-AsiliaNeural                    Female
+en-KE-ChilembaNeural                  Male
+en-NG-AbeoNeural                      Male
+en-NG-EzinneNeural                    Female
+en-NZ-MitchellNeural                  Male
+en-NZ-MollyNeural                     Female
+en-PH-JamesNeural                     Male
+en-PH-RosaNeural                      Female
+en-SG-LunaNeural                      Female
+en-SG-WayneNeural                     Male
+en-TZ-ElimuNeural                     Male
+en-TZ-ImaniNeural                     Female
+en-US-AdamMultilingualNeural          Male                           warm, engaging, deep      
+en-US-AlloyTurboMultilingualNeural    Male                           Versatile
+en-US-AmandaMultilingualNeural        Female                         clear, bright, youthful   
+en-US-AmberNeural                     Female                         Whimsical, Upbeat, Light-Hearted
+en-US-AnaNeural                       Female                         Curious, Cheerful, Engaging
+en-US-AndrewMultilingualNeural        Male                           Confident, Casual, Warm   
+en-US-AndrewNeural                    Male                           Confident, Authentic, Warm
+en-US-AriaNeural                      Female                         Crisp, Bright, Clear      
+en-US-AshleyNeural                    Female                         Sincere, Approachable, Honest
+en-US-AvaMultilingualNeural           Female                         Pleasant, Friendly, Caring
+en-US-AvaNeural                       Female                         Pleasant, Caring, Friendly
+en-US-BrandonMultilingualNeural       Male                           Warm, Engaging, Authentic 
+en-US-BrandonNeural                   Male                           Warm, Engaging, Authentic 
+en-US-BrianMultilingualNeural         Male                           Sincere, Calm, Approachable
+en-US-BrianNeural                     Male                           Sincere, Calm, Approachable
+en-US-ChristopherMultilingualNeural   Male                           Deep, Warm
+en-US-ChristopherNeural               Male                           Deep, Warm
+en-US-CoraMultilingualNeural          Female                         Empathetic, Formal, Sincere
+en-US-CoraNeural                      Female                         Empathetic, Formal, Sincere
+en-US-DavisMultilingualNeural         Male                           soothing, calm, smooth    
+en-US-DavisNeural                     Male                           Soothing, Calm, Smooth    
+en-US-DerekMultilingualNeural         Male                           confident, knowledgable, formal
+en-US-DustinMultilingualNeural        Male                           youthful, clear, thoughtful
+en-US-EchoTurboMultilingualNeural     Male
+en-US-ElizabethNeural                 Female                         Authoritative, Formal, Serious
+en-US-EmmaMultilingualNeural          Female                         Cheerful, Light-Hearted, Casual
+en-US-EmmaNeural                      Female                         Cheerful, Light-Hearted, Casual
+en-US-EricNeural                      Male                           Confident, Sincere, Warm  
+en-US-FableTurboMultilingualNeural    Neutral
+en-US-GuyNeural                       Male                           Light-Hearted, Whimsical, Friendly
+en-US-JacobNeural                     Male                           Sincere, Formal, Confident
+en-US-JaneNeural                      Female                         Serious, Approachable, Upbeat
+en-US-JasonNeural                     Male                           Gentle, Shy, Polite       
+en-US-JennyMultilingualNeural         Female                         Sincere, Pleasant, Approachable
+en-US-JennyNeural                     Female                         Sincere, Pleasant, Approachable
+en-US-KaiNeural                       Male                           Sincere, Pleasant, Bright, Clear, Friendly, Warm
+en-US-LewisMultilingualNeural         Male                           knowledgable, formal, confident
+en-US-LolaMultilingualNeural          Female                         sincere, calm, warm       
+en-US-LunaNeural                      Female                         Sincere, Pleasant, Bright, Clear, Friendly, Warm
+en-US-MichelleNeural                  Female                         Confident, Authentic, Warm
+en-US-MonicaNeural                    Female                         Mature, Authentic, Warm   
+en-US-NancyMultilingualNeural         Female                         casual, youthful, approachable
+en-US-NancyNeural                     Female                         Confident, Serious, Mature
+en-US-NovaTurboMultilingualNeural     Female                         Deep, Resonant
+en-US-OnyxTurboMultilingualNeural     Male
+en-US-PhoebeMultilingualNeural        Female                         youthful, upbeat, confident
+en-US-RogerNeural                     Male                           Serious, Formal, Confident
+en-US-RyanMultilingualNeural          Male                           Professional, Authentic, Sincere
+en-US-SamuelMultilingualNeural        Male                           sincere, warm, expressive 
+en-US-SaraNeural                      Female                         Sincere, Calm, Confident  
+en-US-SerenaMultilingualNeural        Female                         formal, confident, mature 
+en-US-ShimmerTurboMultilingualNeural  Female
+en-US-SteffanMultilingualNeural       Male                           Casual, Thoughtful        
+en-US-SteffanNeural                   Male                           Mature, Authentic, Warm   
+en-US-TonyNeural                      Male                           Thoughtful, Authentic, Sincere
+en-ZA-LeahNeural                      Female
+en-ZA-LukeNeural                      Male
+es-AR-ElenaNeural                     Female                         Bright, Clear
+es-AR-TomasNeural                     Male
+es-BO-MarceloNeural                   Male
+es-BO-SofiaNeural                     Female
+es-CL-CatalinaNeural                  Female
+es-CL-LorenzoNeural                   Male
+es-CO-GonzaloNeural                   Male
+es-CO-SalomeNeural                    Female
+es-CR-JuanNeural                      Male
+es-CR-MariaNeural                     Female
+es-CU-BelkysNeural                    Female
+es-CU-ManuelNeural                    Male
+es-DO-EmilioNeural                    Male
+es-DO-RamonaNeural                    Female
+es-EC-AndreaNeural                    Female
+es-EC-LuisNeural                      Male
+es-ES-AbrilNeural                     Female
+es-ES-AlvaroNeural                    Male                           Confident, Animated       
+es-ES-ArabellaMultilingualNeural      Female                         Cheerful, Friendly, Casual, Warm, Pleasant
+es-ES-ArnauNeural                     Male
+es-ES-DarioNeural                     Male
+es-ES-EliasNeural                     Male
+es-ES-ElviraNeural                    Female                         Bright, Clear
+es-ES-EstrellaNeural                  Female
+es-ES-IreneNeural                     Female                         Curious, Cheerful
+es-ES-IsidoraMultilingualNeural       Female                         Cheerful, Friendly, Warm, Casual
+es-ES-LaiaNeural                      Female
+es-ES-LiaNeural                       Female                         Animated, Bright
+es-ES-NilNeural                       Male
+es-ES-SaulNeural                      Male
+es-ES-TeoNeural                       Male
+es-ES-TrianaNeural                    Female
+es-ES-TristanMultilingualNeural       Male                           Formal, Clear, Trusthworthy
+es-ES-VeraNeural                      Female
+es-ES-XimenaMultilingualNeural        Female                         Formal, Serious, Upbeat   
+es-ES-XimenaNeural                    Female                         Crisp, Cheerful
+es-GQ-JavierNeural                    Male
+es-GQ-TeresaNeural                    Female
+es-GT-AndresNeural                    Male
+es-GT-MartaNeural                     Female
+es-HN-CarlosNeural                    Male
+es-HN-KarlaNeural                     Female
+es-MX-BeatrizNeural                   Female
+es-MX-CandelaNeural                   Female
+es-MX-CarlotaNeural                   Female
+es-MX-CecilioNeural                   Male
+es-MX-DaliaMultilingualNeural         Female                         Warm, Cheerful, Casual, Friendly, Pleasant
+es-MX-DaliaNeural                     Female                         Bright, Upbeat
+es-MX-GerardoNeural                   Male
+es-MX-JorgeMultilingualNeural         Male                           Warm, Cheerful, Casual, Friendly, Pleasant
+es-MX-JorgeNeural                     Male                           Curious, Deep, Confident  
+es-MX-LarissaNeural                   Female
+es-MX-LibertoNeural                   Male
+es-MX-LucianoNeural                   Male
+es-MX-MarinaNeural                    Female                         Curious, Cheerful
+es-MX-NuriaNeural                     Female
+es-MX-PelayoNeural                    Male
+es-MX-RenataNeural                    Female
+es-MX-YagoNeural                      Male
+es-NI-FedericoNeural                  Male
+es-NI-YolandaNeural                   Female
+es-PA-MargaritaNeural                 Female
+es-PA-RobertoNeural                   Male
+es-PE-AlexNeural                      Male
+es-PE-CamilaNeural                    Female
+es-PR-KarinaNeural                    Female
+es-PR-VictorNeural                    Male
+es-PY-MarioNeural                     Male
+es-PY-TaniaNeural                     Female
+es-SV-LorenaNeural                    Female
+es-SV-RodrigoNeural                   Male
+es-US-AlonsoNeural                    Male
+es-US-PalomaNeural                    Female
+es-UY-MateoNeural                     Male
+es-UY-ValentinaNeural                 Female
+es-VE-PaolaNeural                     Female
+es-VE-SebastianNeural                 Male
+et-EE-AnuNeural                       Female
+et-EE-KertNeural                      Male
+eu-ES-AinhoaNeural                    Female
+eu-ES-AnderNeural                     Male
+fa-IR-DilaraNeural                    Female
+fa-IR-FaridNeural                     Male
+fi-FI-HarriNeural                     Male
+fi-FI-NooraNeural                     Female                         Bright, Clear
+fi-FI-SelmaNeural                     Female
+fil-PH-AngeloNeural                   Male
+fil-PH-BlessicaNeural                 Female
+fr-BE-CharlineNeural                  Female
+fr-BE-GerardNeural                    Male
+fr-CA-AntoineNeural                   Male
+fr-CA-JeanNeural                      Male
+fr-CA-SylvieNeural                    Female
+fr-CA-ThierryNeural                   Male                           Engaging, Caring
+fr-CH-ArianeNeural                    Female
+fr-CH-FabriceNeural                   Male
+fr-FR-AlainNeural                     Male
+fr-FR-BrigitteNeural                  Female
+fr-FR-CelesteNeural                   Female
+fr-FR-ClaudeNeural                    Male
+fr-FR-CoralieNeural                   Female
+fr-FR-DeniseNeural                    Female                         Bright, Engaging
+fr-FR-EloiseNeural                    Female                         Curious, Cheerful
+fr-FR-HenriNeural                     Male                           Strong, Calm
+fr-FR-JacquelineNeural                Female
+fr-FR-JeromeNeural                    Male
+fr-FR-JosephineNeural                 Female
+fr-FR-LucienMultilingualNeural        Male                           Warm, Formal, Confident   
+fr-FR-MauriceNeural                   Male
+fr-FR-RemyMultilingualNeural          Male                           Bright, Cheerful
+fr-FR-VivienneMultilingualNeural      Female                         Warm, Casual
+fr-FR-YvesNeural                      Male
+fr-FR-YvetteNeural                    Female                         Animated, Bright
+ga-IE-ColmNeural                      Male
+ga-IE-OrlaNeural                      Female
+gl-ES-RoiNeural                       Male
+gl-ES-SabelaNeural                    Female
+gu-IN-DhwaniNeural                    Female
+gu-IN-NiranjanNeural                  Male
+he-IL-AvriNeural                      Male
+he-IL-HilaNeural                      Female
+hi-IN-AaravNeural                     Male
+hi-IN-AartiNeural                     Female
+hi-IN-AnanyaNeural                    Female
+hi-IN-ArjunNeural                     Male
+hi-IN-KavyaNeural                     Female
+hi-IN-KunalNeural                     Male
+hi-IN-MadhurNeural                    Male
+hi-IN-RehaanNeural                    Male
+hi-IN-SwaraNeural                     Female
+hr-HR-GabrijelaNeural                 Female
+hr-HR-SreckoNeural                    Male                           Whimsical, Friendly       
+hu-HU-NoemiNeural                     Female
+hu-HU-TamasNeural                     Male                           Whimsical, Friendly       
+hy-AM-AnahitNeural                    Female
+hy-AM-HaykNeural                      Male
+id-ID-ArdiNeural                      Male
+id-ID-GadisNeural                     Female
+is-IS-GudrunNeural                    Female
+is-IS-GunnarNeural                    Male
+it-IT-AlessioMultilingualNeural       Male                           Cheerful, Warm, Gentle, Cheerful, Friendly
+it-IT-BenignoNeural                   Male
+it-IT-CalimeroNeural                  Male
+it-IT-CataldoNeural                   Male
+it-IT-DiegoNeural                     Male                           Animated, Upbeat
+it-IT-ElsaNeural                      Female                         Confident, Crisp
+it-IT-FabiolaNeural                   Female
+it-IT-FiammaNeural                    Female
+it-IT-GianniNeural                    Male
+it-IT-GiuseppeMultilingualNeural      Male                           Expressive, Upbeat, Youthful
+it-IT-GiuseppeNeural                  Male                           Bright, Warm
+it-IT-ImeldaNeural                    Female
+it-IT-IrmaNeural                      Female
+it-IT-IsabellaMultilingualNeural      Female                         Warm, Cheerful, Casual, Friendly, Pleasant
+it-IT-IsabellaNeural                  Female                         Upbeat, Bright
+it-IT-LisandroNeural                  Male
+it-IT-MarcelloMultilingualNeural      Male                           Cheerful, Friendly, Casual, Warm, Pleasant
+it-IT-PalmiraNeural                   Female                         Animated, Bright
+it-IT-PierinaNeural                   Female                         Curious, Cheerful
+it-IT-RinaldoNeural                   Male
+iu-Cans-CA-SiqiniqNeural              Female
+iu-Cans-CA-TaqqiqNeural               Male
+iu-Latn-CA-SiqiniqNeural              Female
+iu-Latn-CA-TaqqiqNeural               Male
+ja-JP-AoiNeural                       Female                         Curious, Cheerful
+ja-JP-DaichiNeural                    Male
+ja-JP-KeitaNeural                     Male                           Casual, Engaging
+ja-JP-MayuNeural                      Female                         Animated, Bright
+ja-JP-NanamiNeural                    Female                         Bright, Cheerful
+ja-JP-NaokiNeural                     Male
+ja-JP-ShioriNeural                    Female
+jv-ID-DimasNeural                     Male
+jv-ID-SitiNeural                      Female
+ka-GE-EkaNeural                       Female
+ka-GE-GiorgiNeural                    Male
+kk-KZ-AigulNeural                     Female
+kk-KZ-DauletNeural                    Male
+km-KH-PisethNeural                    Male
+km-KH-SreymomNeural                   Female
+kn-IN-GaganNeural                     Male
+kn-IN-SapnaNeural                     Female
+ko-KR-BongJinNeural                   Male
+ko-KR-GookMinNeural                   Male
+ko-KR-HyunsuMultilingualNeural        Male                           Formal, Clear, Confident  
+ko-KR-HyunsuNeural                    Male                           Bright, Casual
+ko-KR-InJoonNeural                    Male                           Casual, Friendly
+ko-KR-JiMinNeural                     Female
+ko-KR-SeoHyeonNeural                  Female                         Curious, Cheerful
+ko-KR-SoonBokNeural                   Female                         Animated, Bright
+ko-KR-SunHiNeural                     Female                         Confident, Formal
+ko-KR-YuJinNeural                     Female
+lo-LA-ChanthavongNeural               Male
+lo-LA-KeomanyNeural                   Female
+lt-LT-LeonasNeural                    Male
+lt-LT-OnaNeural                       Female
+lv-LV-EveritaNeural                   Female
+lv-LV-NilsNeural                      Male
+mk-MK-AleksandarNeural                Male
+mk-MK-MarijaNeural                    Female
+ml-IN-MidhunNeural                    Male
+ml-IN-SobhanaNeural                   Female
+mn-MN-BataaNeural                     Male
+mn-MN-YesuiNeural                     Female
+mr-IN-AarohiNeural                    Female
+mr-IN-ManoharNeural                   Male
+ms-MY-OsmanNeural                     Male                           Whimsical, Friendly       
+ms-MY-YasminNeural                    Female
+mt-MT-GraceNeural                     Female
+mt-MT-JosephNeural                    Male
+my-MM-NilarNeural                     Female
+my-MM-ThihaNeural                     Male
+nb-NO-FinnNeural                      Male
+nb-NO-IselinNeural                    Female                         Bright, Clear
+nb-NO-PernilleNeural                  Female
+ne-NP-HemkalaNeural                   Female
+ne-NP-SagarNeural                     Male
+nl-BE-ArnaudNeural                    Male
+nl-BE-DenaNeural                      Female
+nl-NL-ColetteNeural                   Female                         Bright, Clear
+nl-NL-FennaNeural                     Female                         Bright, Confident
+nl-NL-MaartenNeural                   Male                           Formal, Upbeat
+or-IN-SubhasiniNeural                 Female
+or-IN-SukantNeural                    Male
+pa-IN-OjasNeural                      Male
+pa-IN-VaaniNeural                     Female
+pl-PL-AgnieszkaNeural                 Female
+pl-PL-MarekNeural                     Male
+pl-PL-ZofiaNeural                     Female                         Bright, Clear
+ps-AF-GulNawazNeural                  Male
+ps-AF-LatifaNeural                    Female
+pt-BR-AntonioNeural                   Male                           Bright, Upbeat
+pt-BR-BrendaNeural                    Female
+pt-BR-DonatoNeural                    Male
+pt-BR-ElzaNeural                      Female
+pt-BR-FabioNeural                     Male
+pt-BR-FranciscaNeural                 Female                         Cheerful, Crisp
+pt-BR-GiovannaNeural                  Female
+pt-BR-HumbertoNeural                  Male
+pt-BR-JulioNeural                     Male
+pt-BR-LeilaNeural                     Female
+pt-BR-LeticiaNeural                   Female                         Curious, Cheerful
+pt-BR-MacerioMultilingualNeural       Male                           Clear, Confident, Upbeat  
+pt-BR-ManuelaNeural                   Female
+pt-BR-NicolauNeural                   Male
+pt-BR-ThalitaMultilingualNeural       Female                         Confident, Formal, Warm, Cheerful, Casual
+pt-BR-ThalitaNeural                   Female                         Confident, Formal
+pt-BR-ValerioNeural                   Male
+pt-BR-YaraNeural                      Female                         Well-Rounded, Animated, Bright
+pt-PT-DuarteNeural                    Male                           Serious, Deep
+pt-PT-FernandaNeural                  Female                         Crisp, Bright, Clear      
+pt-PT-RaquelNeural                    Female                         Calm, Bright
+ro-RO-AlinaNeural                     Female
+ro-RO-EmilNeural                      Male
+ru-RU-DariyaNeural                    Female                         Crisp, Bright, Clear      
+ru-RU-DmitryNeural                    Male
+ru-RU-SvetlanaNeural                  Female
+si-LK-SameeraNeural                   Male
+si-LK-ThiliniNeural                   Female
+sk-SK-LukasNeural                     Male
+sk-SK-ViktoriaNeural                  Female
+sl-SI-PetraNeural                     Female
+sl-SI-RokNeural                       Male
+so-SO-MuuseNeural                     Male
+so-SO-UbaxNeural                      Female
+sq-AL-AnilaNeural                     Female
+sq-AL-IlirNeural                      Male
+sr-Latn-RS-NicholasNeural             Male
+sr-Latn-RS-SophieNeural               Female
+sr-RS-NicholasNeural                  Male
+sr-RS-SophieNeural                    Female
+su-ID-JajangNeural                    Male
+su-ID-TutiNeural                      Female
+sv-SE-HilleviNeural                   Female                         Crisp, Bright, Clear      
+sv-SE-MattiasNeural                   Male
+sv-SE-SofieNeural                     Female
+sw-KE-RafikiNeural                    Male
+sw-KE-ZuriNeural                      Female
+sw-TZ-DaudiNeural                     Male
+sw-TZ-RehemaNeural                    Female
+ta-IN-PallaviNeural                   Female
+ta-IN-ValluvarNeural                  Male
+ta-LK-KumarNeural                     Male
+ta-LK-SaranyaNeural                   Female
+ta-MY-KaniNeural                      Female
+ta-MY-SuryaNeural                     Male
+ta-SG-AnbuNeural                      Male
+ta-SG-VenbaNeural                     Female
+te-IN-MohanNeural                     Male
+te-IN-ShrutiNeural                    Female
+th-TH-AcharaNeural                    Female                         Crisp, Bright, Clear      
+th-TH-NiwatNeural                     Male
+th-TH-PremwadeeNeural                 Female
+tr-TR-AhmetNeural                     Male
+tr-TR-EmelNeural                      Female                         Crisp, Bright, Clear      
+uk-UA-OstapNeural                     Male
+uk-UA-PolinaNeural                    Female
+ur-IN-GulNeural                       Female
+ur-IN-SalmanNeural                    Male
+ur-PK-AsadNeural                      Male
+ur-PK-UzmaNeural                      Female
+uz-UZ-MadinaNeural                    Female
+uz-UZ-SardorNeural                    Male
+vi-VN-HoaiMyNeural                    Female
+vi-VN-NamMinhNeural                   Male
+wuu-CN-XiaotongNeural                 Female                         Warm, Friendly, Soothing  
+wuu-CN-YunzheNeural                   Male                           Calm, Deep, Gentle        
+yue-CN-XiaoMinNeural                  Female                         Bright, Crisp, Confident  
+yue-CN-YunSongNeural                  Male                           Deep, Calm, Formal        
+zh-CN-XiaochenMultilingualNeural      Female                         Friendly, Casual, Upbeat  
+zh-CN-XiaochenNeural                  Female                         Friendly, Casual, Upbeat  
+zh-CN-XiaohanNeural                   Female                         Gentle, Warm, Emotional   
+zh-CN-XiaomengNeural                  Female                         Gentle, Upbeat, Friendly  
+zh-CN-XiaomoNeural                    Female                         Deep, Casual, Calm        
+zh-CN-XiaoqiuNeural                   Female                         Calm, Engaging, Soothing  
+zh-CN-XiaorouNeural                   Female                         Cheerful, Engaging, Pleasant
+zh-CN-XiaoruiNeural                   Female                         Confident, Emotional, Hoarse
+zh-CN-XiaoshuangNeural                Female                         Crisp, Cheerful, Bright   
+zh-CN-XiaoxiaoDialectsNeural          Female                         Warm, Animated, Bright    
+zh-CN-XiaoxiaoMultilingualNeural      Female                         Warm, Animated, Bright    
+zh-CN-XiaoxiaoNeural                  Female                         Warm, Well-Rounded, Animated
+zh-CN-XiaoyanNeural                   Female                         Warm, Gentle, Empathetic  
+zh-CN-XiaoyiNeural                    Female                         Bright, Emotional, Engaging
+zh-CN-XiaoyouNeural                   Female                         Crisp, Cheerful, Bright   
+zh-CN-XiaoyuMultilingualNeural        Female                         Deep, Confident, Casual   
+zh-CN-XiaozhenNeural                  Female                         Calm, Serious, Confident  
+zh-CN-YunfengNeural                   Male                           Confident, Animated, Emotional
+zh-CN-YunhaoNeural                    Male                           Warm, Soft, Upbeat        
+zh-CN-YunjianNeural                   Male                           Deep, Casual, Engaging    
+zh-CN-YunjieNeural                    Male                           Casual, Confident, Warm   
+zh-CN-YunxiNeural                     Male                           Bright, Animated, Cheerful
+zh-CN-YunxiaNeural                    Male                           Cheerful, Friendly, Emotional
+zh-CN-YunxiaoMultilingualNeural       Male                           Gentle, Casual, Friendly  
+zh-CN-YunyangNeural                   Male                           Formal, Deep, Calm        
+zh-CN-YunyeNeural                     Male                           Casual, Deep, Calm        
+zh-CN-YunyiMultilingualNeural         Male                           Gentle, Casual, Friendly  
+zh-CN-YunzeNeural                     Male                           Deep, Confident, Formal   
+zh-CN-henan-YundengNeural             Male                           Casual, Friendly, Animated
+zh-CN-liaoning-XiaobeiNeural          Female                         Friendly, Casual, Gentle  
+zh-CN-shaanxi-XiaoniNeural            Female                         Confident, Engaging, Casual
+zh-CN-shandong-YunxiangNeural         Male                           Casual, Animated, Strong  
+zh-CN-sichuan-YunxiNeural             Male                           Casual, Animated, Gentle  
+zh-HK-HiuGaaiNeural                   Female                         Crisp, Bright, Clear      
+zh-HK-HiuMaanNeural                   Female                         Bright, Upbeat
+zh-HK-WanLungNeural                   Male                           Calm, Formal
+zh-TW-HsiaoChenNeural                 Female                         Soft, Caring
+zh-TW-HsiaoYuNeural                   Female                         Crisp, Bright, Clear      
+zh-TW-YunJheNeural                    Male                           Engaging, Gentle
+zu-ZA-ThandoNeural                    Female
+zu-ZA-ThembaNeural                    Male
