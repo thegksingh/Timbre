@@ -83,7 +83,7 @@ async def main():
                             try:
                                 result = polisher.translator(text=content, language=language)
                                 if result:
-                                    type_effect(f"✅ Processing completed. Find your new text file at output\mp3\{filename}.text\n")
+                                    type_effect(f"✅ Processing completed. Find your new text file at outputs\text\{filename}.text\n")
                                     sys.exit()                           
                             except Exception as e:
                                 type_effect(f"Error: {e}\n")
@@ -99,7 +99,7 @@ async def main():
                             try:
                                 result = polisher.enhancer(text=content, style=style)
                                 if result:
-                                    type_effect(f"✅ Processing completed. Find your new text file at output\mp3\{filename}.text\n")
+                                    type_effect(f"✅ Processing completed. Find your new text file at outputs\text\{filename}.text\n")
                                     break
                             except Exception as e:
                                 type_effect(f"Error: {e}\n")
@@ -152,7 +152,17 @@ def print_option():
     table =tabulate(options, headers=headers, tablefmt="fancy_grid")
     columns = shutil.get_terminal_size().columns
     for line in table.splitlines():
-        print(line.center(columns))        
+        print(line.center(columns)) 
+
+def save_output(text, filename, extension, type):
+    try:
+        tosave = f"{filename}.{extension}"
+        path = f"outputs\{type}\{tosave}"
+        with open(path, "w", encoding="utf-8") as file:
+            file.write(text)
+    except Exception as e:
+        type_effect(f"Error: {e}\n")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
