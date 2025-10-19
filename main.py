@@ -12,7 +12,11 @@ options = [
 ]
 
 def main():
-    ...
+    headers = ["Option", "Acronym", "Name", "Description"]
+    table =tabulate(options, headers=headers, tablefmt="fancy_grid")
+    columns = shutil.get_terminal_size().columns
+    for line in table.splitlines():
+        print(line.center(columns))
 
    
 def greet(s):
