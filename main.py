@@ -12,6 +12,7 @@ options = [
 ]
 
 def main():
+    greet("TIMBER !")
     headers = ["Option", "Acronym", "Name", "Description"]
     table =tabulate(options, headers=headers, tablefmt="fancy_grid")
     columns = shutil.get_terminal_size().columns
