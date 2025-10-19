@@ -3,10 +3,11 @@ import shutil
 import time
 import os
 from tabulate import tabulate
-from timbre_module.tts import tts
+from timbre_module.tts import Tts
 import asyncio
 from timbre_module.polisher import TextPolisher
 import sys
+
 
 options = [
     ["1.", "TTS", "Text To Speech", "Convert written text into spoken audio."],
@@ -29,7 +30,7 @@ async def main():
             type_effect("Please enter your choice (eg., '1' or 'TTS').\n")
         else:
             if chosen == "1" or chosen == "tts":
-                speech = tts()
+                speech = Tts()
                 type_effect("⚙️ Initializing Text-To-Speech...\n")
                 content= open_file()
                 type_effect("📄 output file name: ")
@@ -48,7 +49,7 @@ async def main():
                 type_effect("Processing request...⌛\n")
                 try:
                     await speech.generate_audio(text=content, voice=voice, rate=rate, pitch=pitch, output_name=filename)
-                    type_effect(f"✅ Processing completed. Find your new audio file at output\mp3\{filename}.mp3\n")
+                    type_effect(f"✅ Processing completed. Find your new audio file at output/mp3/{filename}.mp3\n")
                     sys.exit()
                 except Exception as e:
                     type_effect(f"Error: {e}\n")
@@ -58,6 +59,7 @@ async def main():
                    
             elif chosen== "2" or chosen=="stt":
                 type_effect("⚙️Initializing Speech-To-Text...\n")
+
 
             elif chosen== "3" or chosen=="sts":
                 type_effect("⚙️Initializing Speech-To-Speech...\n")  
@@ -84,7 +86,7 @@ async def main():
                                 result = polisher.translator(text=content, language=language)
                                 save_output(result,filename,"txt","text")
                                 if result:
-                                    type_effect(f"✅ Processing completed. Find your new text file at outputs\text\{filename}.text\n")
+                                    type_effect(f"✅ Processing completed. Find your new text file at outputs/text/{filename}.text\n")
                                     sys.exit()                           
                             except Exception as e:
                                 type_effect(f"Error: {e}\n")
@@ -122,7 +124,7 @@ def open_file():
         type_effect("📄 file to open: ")
         filename = input("")
         try:
-            with open(f"inputs\{filename}.txt","r") as file:
+            with open(f"inputs/{filename}.txt","r") as file:
                 file_content = file.read()
                 if len(file_content) != 0:
                     return(file_content)
@@ -159,7 +161,7 @@ def print_option():
 def save_output(text, filename, extension, type):
     try:
         tosave = f"{filename}.{extension}"
-        path = f"outputs\{type}\{tosave}"
+        path = f"outputs/{type}/{tosave}"
         with open(path, "w", encoding="utf-8") as file:
             file.write(text)
     except Exception as e:
