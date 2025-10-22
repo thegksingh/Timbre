@@ -64,3 +64,4 @@ Text to Enhance:
         prompt = self.enhancer_prompt(text, style)
         response = self.model.generate_content(prompt)
         return response.text    
+    

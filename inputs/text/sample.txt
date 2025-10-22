@@ -1,0 +1,67 @@
+Timbre is a simple yet powerful Text-to-Audio tool designed to convert your written text into natural-sounding speech. It’s perfect for students, content creators, or anyone who wants to turn notes, articles, or scripts into audio quickly and easily.
+
+With Timbre, you can:
+
+Convert any text file into clear, high-quality audio in .mp3 format.
+
+Choose from multiple voices and adjust speech parameters like speed and pitch.
+
+Create podcasts, audio notes, or voiceovers directly from your text files.
+
+
+
+---
+
+💡 How It Works
+
+1. Input Text: You provide a .txt file with the text you want to convert.
+
+
+2. Select Voice: Timbre allows you to choose from a variety of AI voices for your audio output.
+
+
+3. Adjust Settings: You can customize the speed (rate) and pitch of the speech to make it sound natural and pleasant.
+
+
+4. Generate Audio: Timbre processes the text using AI-powered Text-to-Speech technology and produces a .mp3 audio file.
+
+
+5. Output: The generated audio file is saved in the output folder, ready to play or share.
+
+
+
+
+---
+
+📝 What Timbre Does
+
+Text-to-Speech Conversion: Transforms written text into spoken words with high clarity.
+
+Voice Customization: Select different voices and modify speed/pitch for the perfect tone.
+
+Easy to Use: No coding skills are required — just provide the text file and let Timbre do the rest.
+
+Versatile Applications: Ideal for podcasts, audio lectures, study notes, storytelling, or accessibility purposes.
+
+
+
+---
+
+⚙️ How to Use
+
+1. Open Timbre.
+
+
+2. Select the Text-to-Speech (TTS) option.
+
+
+3. Choose your input text file.
+
+
+4. Pick a voice from the available options.
+
+
+5. Adjust the speech speed and pitch if needed.
+
+
+6. Generate the audio — the resulting .mp3 file will be saved in the output folder.

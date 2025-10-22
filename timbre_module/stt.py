@@ -2,7 +2,7 @@ import whisper
 
 class Stt:
 
-    def __init__(self, model: str = "base"):
+    def __init__(self, model: str = "medium"):
         self.model = whisper.load_model(model)
            
     def generate(self, path: str):

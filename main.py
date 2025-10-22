@@ -11,15 +11,15 @@ from timbre_module.stt import Stt
 
 
 options = [
-    ["1.", "TTS", "Text To Speech", "Convert written text into spoken audio."],
-    ["2.", "STT", "Speech To Text", "Transcribe spoken aydio into written text"],
-    ["3.", "STS", "Speech To Speech", "Transform a user's recorded or TTS voice into different AI-generated voice"],
-    ["4.", "TP", "Text Polisher", "Refine and corrects written text from translation,grammer and style"]
+    ["1.", "TTS 🎧", "Text To Speech", "Convert written text into spoken audio."],
+    ["2.", "STT 🎙️", "Speech To Text", "Transcribe spoken aydio into written text"],
+    ["3.", "STS 🔀", "Speech To Speech", "Transform a user's recorded or TTS voice into different AI-generated voice"],
+    ["4.", "TP ✨", "Text Polisher", "Refine and corrects written text from translation,grammer and style"]
 ]
 
 
 async def main():
-    greet("TIMBER !")
+    #greet("TIMBER !")
     clear_terminal(2)
     print_option()
     time.sleep(1)
@@ -28,6 +28,7 @@ async def main():
         chosen = input("").strip().lower()
         clear_terminal(0.5)  
         if not chosen:
+            print_option()
             type_effect("Please enter your choice (eg., '1' or 'TTS').\n")
         else:
             if chosen == "1" or chosen == "tts":
@@ -51,7 +52,9 @@ async def main():
                 try:
                     await speech.generate_audio(text=content, voice=voice, rate=rate, pitch=pitch, output_name=filename)
                     type_effect(f"✅ Processing completed. Find your new audio file at output/mp3/{filename}.mp3\n")
-                    sys.exit()
+                    clear_terminal(2)
+                    print_option()
+                    continue
                 except Exception as e:
                     type_effect(f"Error: {e}\n")
                     clear_terminal(2)
@@ -64,8 +67,8 @@ async def main():
                      try:
                          model = input("")
                          if not model:
-                             model = "base"
-                             type_effect("Set Whisper model to base")
+                             model = "medium"
+                             type_effect("Set Whisper model to medium")
                          stt_result = Stt(model=model)
                          break
                      except Exception as e:
@@ -85,7 +88,10 @@ async def main():
                     result = stt_result.generate(path)
                     save_output(result, outputfile,"txt","text")
                     type_effect(f"✅ Processing completed. Find your new text file at outputs/text/{inputfile}.text\n")
-                    sys.exit()
+                    clear_terminal(2)
+                    print_option()
+                    continue
+                    
                 except Exception as e:
                     print(f"Error: {e}\n")
                     clear_terminal(10)
@@ -127,10 +133,12 @@ async def main():
                     result = stt_result.generate(path)
                     if result:
                         speech = Tts()
-                        type_effect("Text file generated\nNow generating audio")
+                        type_effect("Text file generated\nNow generating audio...")
                         await speech.generate_audio(text=result, voice=voice, rate=rate, pitch=pitch, output_name=outputfile)
                         type_effect(f"✅ Processing completed. Find your new audio file at output/mp3/{outputfile}.mp3\n")
-                        sys.exit()
+                        clear_terminal(2)
+                        print_option()
+                        continue
                 except Exception as e:
                         type_effect(f"Error: {e}\n")
                         clear_terminal(5)
@@ -159,7 +167,9 @@ async def main():
                                 save_output(result,filename,"txt","text")
                                 if result:
                                     type_effect(f"✅ Processing completed. Find your new text file at outputs/text/{filename}.text\n")
-                                    sys.exit()                           
+                                    clear_terminal(2)
+                                    print_option()
+                                    break                          
                             except Exception as e:
                                 type_effect(f"Error: {e}\n")
                                 clear_terminal(2)
@@ -176,6 +186,8 @@ async def main():
                                 save_output(result,filename,"txt","text")
                                 if result:
                                     type_effect(f"✅ Processing completed. Find your new text file at outputs\text\{filename}.text\n")
+                                    clear_terminal(2)
+                                    print_option()
                                     break
                             except Exception as e:
                                 type_effect(f"Error: {e}\n")
@@ -184,6 +196,7 @@ async def main():
                             type_effect("Please enter your action (eg., '1' or 'translate')\n")
                 
             else:
+                print_option()
                 type_effect("Please refer to the table above and enter a valid number or acronym.\n")
    
 def greet(s):
@@ -196,7 +209,7 @@ def open_file():
         type_effect("📄 file to open: ")
         filename = input("")
         try:
-            with open(f"inputs/{filename}.txt","r") as file:
+            with open(f"inputs/text/{filename}.txt","r", encoding="utf-8") as file:
                 file_content = file.read()
                 if len(file_content) != 0:
                     return(file_content)
