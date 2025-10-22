@@ -175,6 +175,7 @@ python main.py
 ---
 
 ## 📂 Notes
+- Python 3.11.9 recommended
 - Generated audio files go to `outputs/mp3/` and text files to `outputs/text/`.
 - `documents/voice_list.txt` contains all supported TTS voices.
 - To run directly, use the provided sample.text and sample.mp3 files in the inputs/text and inputs/mp3 directories.
