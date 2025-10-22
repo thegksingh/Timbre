@@ -19,7 +19,7 @@ options = [
 
 
 async def main():
-    #greet("TIMBER !")
+    greet("TIMBER !")
     clear_terminal(2)
     print_option()
     time.sleep(1)

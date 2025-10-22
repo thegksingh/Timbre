@@ -1,6 +1,6 @@
 # Timbre 🎵📝
 
-### Video Demo: [YouTube Video Link Here Soon]
+### Video Demo: [https://youtu.be/97bHyNIGS_Y?si=fdjtI00UgyOSM7ow]
 
 Welcome to **Timbre**! This is a Command-Line Audio Toolkit I built for my CS50P Final Project. It's your all-in-one assistant for working with text and speech, powered by some of today's best AI tools.
 
@@ -33,7 +33,8 @@ Timbre/
 │   └── text/                   # All generated text lands here
 ├── documents/
 │   └── voice_list.txt          # A handy list of all supported TTS voices
-├── requirements.txt            # All the Python libraries you need
+├── requirements.txt             # All the Python libraries you need
+├── LICENSE.txt            
 ├── .env                        # Where you'll put your secret API key
 └── README.md                   # You are here!
 ```
