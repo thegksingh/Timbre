@@ -128,7 +128,7 @@ You’ll see a menu with the following options:
 
 ### TTS Example
 ```bash
-python main.py
+python project.py
 # Then select option 1 (TTS) and follow prompts
 # Input file: example.txt
 # Output file: example_audio.mp3
@@ -140,7 +140,7 @@ python main.py
 
 ### STT Example
 ```bash
-python main.py
+python project.py
 # Then select option 2 (STT) and follow prompts
 # Whisper model: base
 # Input file: example.mp3
@@ -150,7 +150,7 @@ python main.py
 
 ### STS Example
 ```bash
-python main.py
+python project.py
 # Then select option 3 (STS) and follow prompts
 # Input file: example.mp3
 # Output file: example_audio_new_voice.mp3
@@ -162,7 +162,7 @@ python main.py
 
 ### Text Polisher Example
 ```bash
-python main.py
+python project.py
 # Then select option 4 (TP) and follow prompts
 # Enhance or translate text
 # Action required: 1 or 2
