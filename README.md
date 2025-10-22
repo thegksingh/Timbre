@@ -189,6 +189,6 @@ python main.py
 
 ---
 
-## 📜 License
+## 📜 Acknowledgements
 - Built for educational purposes as a CS50P Final Project.  
 - Huge thanks to the CS50 team for an amazing course!
