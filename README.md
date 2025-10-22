@@ -19,7 +19,7 @@ Ever wanted to turn your notes into a podcast? Or quickly transcribe a voice mem
 
 ```
 Timbre/
-├── main.py                     # The main CLI script you'll run
+├── project.py                     # The main CLI script you'll run
 ├── timbre_module/              # The core Python module with all the logic
 │   ├── __init__.py
 │   ├── tts.py                  # Handles Text-to-Speech
@@ -34,7 +34,8 @@ Timbre/
 ├── documents/
 │   └── voice_list.txt          # A handy list of all supported TTS voices
 ├── requirements.txt             # All the Python libraries you need
-├── LICENSE.txt            
+├── LICENSE.txt
+├── test_project.py            
 ├── .env                        # Where you'll put your secret API key
 └── README.md                   # You are here!
 ```
@@ -87,7 +88,7 @@ echo "GOOGLE_API_KEY=your_actual_key_goes_here" > .env
 
 ```bash
 # Run the main CLI script
-python main.py
+python project.py
 ```
 
 You’ll see a menu with the following options:
@@ -190,6 +191,6 @@ python main.py
 
 ---
 
-## 📜 License
+## 📜 Acknowledgements
 - Built for educational purposes as a CS50P Final Project.  
 - Huge thanks to the CS50 team for an amazing course!
